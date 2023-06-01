@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #3b3b3b;
+}
+
+body {
+  background: linear-gradient(65deg, #dae1ec, #e4ebf5);
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: none;
+  margin: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.calculator {
+  position: relative;
+  background: #e4ebf5;
+  height: auto;
+  width: auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #ffffff;
+}
+.calculator #display {
+  font-family: "Roboto";
+  color: #6d5dfc;
+  font-weight: 900;
+  margin: 0 10px;
+  border-radius: 15px;
+  height: 120px;
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.calculator #equal {
+  position: absolute;
+  height: 130px;
+}
+.calculator #clear {
+  background-color: #6d5dfc;
+  color: #ffffff;
+}
+.calculator .btn-number {
+  background-color: #f4f8fd;
+  color: #6e6e6e;
+}
+.calculator .btn-operator {
+  background-color: #f0a1fa;
+  color: #ffffff;
+}
+.calculator .btn-equal {
+  background-color: #6d5dfc;
+  color: #ffffff;
+}
+.calculator.dark {
+  background: #464956;
+}
+.calculator.dark #display {
+  color: #ffffff;
+}
+.calculator.dark .btn-number {
+  background: #464956;
+  color: #f1f1f1;
+}
+.calculator.dark button {
+  box-shadow: 0.3rem 0.3rem 0.6rem #363738, -0.2rem -0.2rem 0.5rem #5b5e6e;
+}
+
+.theme-toggler {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+.theme-toggler::before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #464956;
+  z-index: -1;
+}
+
+.theme-toggler.active::before {
+  background: #ffffff;
+}/*# sourceMappingURL=style.css.map */

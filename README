@@ -1,0 +1,11 @@
+La calculadora Neumorphic es un ejemplar excepcional de elegancia y funcionalidad fusionadas en un solo diseño.
+
+Construida con las tecnologías de HTML5, CSS3 y JavaScript, esta calculadora muestra su compatibilidad y eficiencia en todos los navegadores modernos. El uso de SCSS, una extensión de CSS, aporta una mejora en la organización y mantenibilidad del código, permitiendo el uso de variables, anidamiento y mixins que hacen que el estilo sea mucho más fácil de manejar y modular.
+
+El diseño Neumorphic es lo que realmente destaca en esta calculadora. Neumorphism, o "Nuevo Morfismo", es una tendencia de diseño moderna que combina los estilos de skeumorphism e flat design, creando una ilusión de elementos incrustados o extruidos, algo que hace que la interfaz de usuario sea visualmente atractiva y distintiva.
+
+La calculadora tiene un fondo suave y los botones parecen estar 'tallados' en el mismo. Cada botón tiene un efecto de sombreado suave tanto en su estado normal como al ser presionado, proporcionando un efecto visual 3D. Los botones numéricos, operadores y funciones se diferencian entre sí con sutiles diferencias de colores y sombras, proporcionando una experiencia de usuario intuitiva.
+
+El JavaScript detrás de la calculadora es limpio y eficiente, permitiendo operaciones matemáticas precisas y complejas. La interfaz de usuario es altamente interactiva, con feedback visual inmediato en respuesta a las interacciones del usuario.
+
+En resumen, esta calculadora Neumorphic es más que un simple gadget de cálculo. Es una pieza de arte digital, una combinación de ingeniería de software moderna y diseño de interfaz de usuario de vanguardia.
